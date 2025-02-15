@@ -1,0 +1,51 @@
+[{
+    "id": 1,
+    "name": "designer",
+    "description": "This project is a portfolio website for an interior designer, showcasing completed works and offering design services. It features an adaptive layout and supports four languages: Russian, Ukrainian, English, and German.",
+    "technologies": "React  , React Router , SCSS , i18next , Yet Another React Lightbox, EmailJS , Vite , Json",
+    "techDescription":"Проект был создан на React , с улобной навигацией по страницам с React Router , в проекте реализована много изычность, так же созданы структуры Json файлов для хранениия информаци о проектах дизайнера. на страницых есть формы для аолучения обратной связи или заказа услуг дизайнера. Также выполнена адаптивная верски для использования что подходит дял разных устройств и разрешений экранов.",
+    "image": [
+      {
+        "src": "/public/img/projectImg/mood/meinPageFor.png",
+        "alt": "Project 1"
+      }, {
+        "src": "/public/img/projectImg/mood/meinPageFor.png",
+        "alt": "Project 2"
+      },{
+        "src": "/public/img/projectImg/mood/meinPageFor.png",
+        "alt": "Project 3"
+    },{
+        "src": "/public/img/projectImg/mood/meinPageFor.png",
+        "alt": "Project 4"
+    }],
+    "githubLink":"https://github.com/Edikmas01/design-project",
+    "demoLink":"https://anastasiia-interior-design.netlify.app/"
+
+},
+{
+  "id": 2,
+  "name": "Project 2",
+  "description": "This is project 2",
+  "technologies": "React  , React Router , SCSS , i18next , Yet Another React Lightbox, EmailJS , Vite , Json",
+  "techDescription": "Проект был создан на React , с улобной навигацией по страницам с React Router , в проекте реализована много изычность, так же созданы структуры Json файлов для хранениия информаци о проектах дизайнера. на страницых есть формы для аолучения обратной связи или заказа услуг дизайнера. Также выполнена адаптивная верски для использования что подходит дял разных устройств и разрешений экранов.",
+  "image": [
+    {
+      "src": "/public/img/projectImg/mood/meinPageOne.png",
+      "alt": "Project 1"
+    },
+    {
+      "src": "/public/img/projectImg/mood/meinPageTwo.png",
+      "alt": "Project 2"
+    },
+    {
+      "src": "/public/img/projectImg/mood/meinPageThee.png",
+      "alt": "Project 3"
+    },
+    {
+      "src": "/public/img/projectImg/mood/meinPageFor.png",
+      "alt": "Project 4"
+    }
+  ],
+   "githubLink":"https://github.com/Edikmas01/mood-tracker",
+    "demoLink":"https://mood-tracker-0011.web.app/"
+}]

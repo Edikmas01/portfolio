@@ -1,0 +1,26 @@
+
+.hero {
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  margin:40px 0
+}
+.hero__title {
+  font-size: 4rem;
+  color: #9b4919;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hero__title span {
+  color: #000000;
+}
+
+.hero__description {
+  font-size: 1.3rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
