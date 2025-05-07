@@ -1,0 +1,38 @@
+{
+  "hero": {
+"hello": "Hello,",
+  "i": "I am",
+  "name" : "Eduard!",
+  "subtitle1": "I am a beginner frontend developer who wants to",
+  "subtitle2": "develop and learn new things",
+    "nav_title": "Аbout me"
+  },
+  "about": {
+    "title": "Аbout me",
+    "description_one": "Hi, my name is Eduard, I'm 24 years old, and I'm an aspiring frontend developer from Ukraine. Currently, I live in Germany. My passion for technology started with learning HTML and CSS, and since then, I haven't been able to stop. Currently, I work with React and JavaScript to create beautiful and functional web applications.",
+    "description_two": "I'm passionate about design and UI/UX, striving to improve the user experience. In my free time, I enjoy learning new technologies and working on projects. My goal is to create not only functional but also beautiful and user-friendly web applications that help people. I'm open to new challenges and always learning.",
+    "nav_title": "Projects"
+  },
+  "projects": {
+    "title": "Projects",
+    "1": {
+      "name": "Interior Design",
+      "description": "This project is a portfolio website for an interior designer, showcasing completed works and offering design services. It features an adaptive layout and supports four languages: Russian, Ukrainian, English, and German.",
+      "techDescription": "The project was built using React, with convenient page navigation implemented via React Router. Multilingual support was integrated into the project, and JSON file structures were created to store information about the designer's projects. The pages include forms for receiving feedback or ordering designer services. Additionally, an adaptive layout was developed, making it suitable for various devices and screen resolutions."
+    },
+    "title_technologies": "Тechnologies",
+    "2": {
+      "name": "Mood-Tracker",
+      "description": "Mood Tracker is a web application designed to help you monitor and understand your mood over time. By logging your daily emotions, adding comments, and viewing trends on an interactive graph, you can gain insights into your emotional well-being. Whether you want to identify patterns, set emotional goals, or simply reflect on your feelings, Mood Tracker provides an intuitive and user-friendly way to stay connected with your mental health.",
+      "techDescription": "The project is built on React + Vite. Navigation within the application became intuitive thanks to React Router, and Redux Toolkit took over state management, including authentication via Slice. For data storage and authentication, we chose Firebase, which provides reliable real-time data storage and fast hosting. Thanks to SCSS, the application not only looks stylish but also perfectly adapts to any device, be it a smartphone, tablet, or computer."
+    },
+    "view_gitHub": "View the project on GitHub",
+    "view_demo": "Demo ansehen"
+  },
+
+  "footer": {
+    "title": "Let's create something unique together!",
+    "phone": "Phone",
+    "git": "My GitHub"
+  }
+}

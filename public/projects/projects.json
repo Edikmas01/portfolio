@@ -1,9 +1,9 @@
 [{
     "id": 1,
-    "name": "designer",
+    "name": "Interior design",
     "description": "This project is a portfolio website for an interior designer, showcasing completed works and offering design services. It features an adaptive layout and supports four languages: Russian, Ukrainian, English, and German.",
     "technologies": "React  , React Router , SCSS , i18next , Yet Another React Lightbox, EmailJS , Vite , Json",
-    "techDescription":"Проект был создан на React , с улобной навигацией по страницам с React Router , в проекте реализована много изычность, так же созданы структуры Json файлов для хранениия информаци о проектах дизайнера. на страницых есть формы для аолучения обратной связи или заказа услуг дизайнера. Также выполнена адаптивная верски для использования что подходит дял разных устройств и разрешений экранов.",
+    "techDescription":"The project was built using React, with convenient page navigation implemented via React Router. Multilingual support was integrated into the project, and JSON file structures were created to store information about the designer's projects. The pages include forms for receiving feedback or ordering designer services. Additionally, an adaptive layout was developed, making it suitable for various devices and screen resolutions.",
     "image": [
       {
         "src": "/public/img/projectImg/mood/meinPageFor.png",
@@ -24,10 +24,10 @@
 },
 {
   "id": 2,
-  "name": "Project 2",
-  "description": "This is project 2",
-  "technologies": "React  , React Router , SCSS , i18next , Yet Another React Lightbox, EmailJS , Vite , Json",
-  "techDescription": "Проект был создан на React , с улобной навигацией по страницам с React Router , в проекте реализована много изычность, так же созданы структуры Json файлов для хранениия информаци о проектах дизайнера. на страницых есть формы для аолучения обратной связи или заказа услуг дизайнера. Также выполнена адаптивная верски для использования что подходит дял разных устройств и разрешений экранов.",
+  "name": "Mood-Tracker",
+  "description": "Mood Tracker is a web application designed to help you monitor and understand your mood over time. By logging your daily emotions, adding comments, and viewing trends on an interactive graph, you can gain insights into your emotional well-being. Whether you want to identify patterns, set emotional goals, or simply reflect on your feelings, Mood Tracker provides an intuitive and user-friendly way to stay connected with your mental health.",
+  "technologies": "React + Vite, React Router, Redux Toolkit, SCSS, Json, Redux Toolkit ",
+  "techDescription": "The project is built on React + Vite. Navigation within the application became intuitive thanks to React Router, and Redux Toolkit took over state management, including authentication via Slice. For data storage and authentication, we chose Firebase, which provides reliable real-time data storage and fast hosting. Thanks to SCSS, the application not only looks stylish but also perfectly adapts to any device, be it a smartphone, tablet, or computer.",
   "image": [
     {
       "src": "/public/img/projectImg/mood/meinPageOne.png",

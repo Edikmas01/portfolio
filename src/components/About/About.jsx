@@ -1,16 +1,13 @@
 import "./About.css";
 import { Navigation } from "../Navigation/Navigation";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { IconRan } from "../IconRan/IconRan";
 
 export const About = () => {
-  const listAnimation = {
-    hidden: { opacity: 0, x: 50 },
-    visible: {
-      opacity: 2,
-      x: 0,
-      transition: { duration: 0.8, delay: 0.3 },
-    },
-  };
+  const { t } = useTranslation();
+
+
 
   const imgAnimation = {
     hidden: { opacity: 0, x: -100 },
@@ -39,7 +36,8 @@ export const About = () => {
   };
 
   return (
-    <motion.div
+    <motion.section
+      id="about"
       className="about-container"
       initial="hidden"
       whileInView="visible"
@@ -56,24 +54,22 @@ export const About = () => {
 
         <div className="about__right">
           <motion.h1 className="about__title" variants={titltAnimation}>
-            <i>About me</i>
+            <i>{t("about.title")}</i>
           </motion.h1>
-          <motion.p className="about__description" variants={descriptionAnimation}>
-            Привет, меня зовут Eduard, мне 24 года, я начинающий
-            frontend-разработчик из Украины. Сейчас живу в Германии. Моё
-            увлечение технологиями началось с изучения HTML и CSS, и с тех пор я
-            не могу остановиться. В настоящее время я работаю с React и
-            JavaScript для создания красивых и функциональных веб-приложений.
+          <motion.p
+            className="about__description"
+            variants={descriptionAnimation}
+          >
+            {t("about.description_one")}
           </motion.p>
-          <motion.p className="about__description" variants={descriptionAnimation}>
-            Я увлекаюсь дизайном и UI/UX, стремлюсь улучшать пользовательский
-            опыт. В свободное время мне нравится изучать новые технологии,
-            разрабатывать проекты. Моя цель — создавать не только работающие, но
-            и красивые, удобные веб-приложения, которые помогают людям. Я открыт
-            для новых вызовов и учусь новому.
+          <motion.p
+            className="about__description"
+            variants={descriptionAnimation}
+          >
+            {t("about.description_two")}
           </motion.p>
 
-          <motion.ul className="about__list" variants={listAnimation}>
+          {/* <motion.ul className="about__list" variants={listAnimation}>
             <li className="about__item">
               <img src="/icon/icons8-js.gif" alt="JavaScript" />
             </li>
@@ -81,20 +77,21 @@ export const About = () => {
               <img src="/icon/icons8-react-80.png" alt="React" />
             </li>
             <li className="about__item">
-              <img src="/icon/icons8-html-5-48.png" alt="HTML" />
+              
             </li>
             <li className="about__item">
               <img src="/icon/icons8-css-64.png" alt="CSS" />
             </li>
-          </motion.ul>
+          </motion.ul> */}
+          <IconRan/>
         </div>
       </div>
       <Navigation
-        title="Prodject"
+        links={[{ title: t("about.nav_title"), href: "#projects" }]}
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}
       />
-    </motion.div>
+    </motion.section>
   );
 };

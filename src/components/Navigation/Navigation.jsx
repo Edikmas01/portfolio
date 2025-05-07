@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import "./Navigation.css";
 
-export const Navigation = ({ title, initial, animate, transition }) => {
+export const Navigation = ({ links = [], initial, animate, transition }) => {
   return (
     <motion.nav
       className="navigation"
@@ -10,11 +10,13 @@ export const Navigation = ({ title, initial, animate, transition }) => {
       transition={transition}
     >
       <ul className="nav__list">
-        <li className="nav__item">
-          <a className="nav__link" href="about">
-            <i>{title}</i>
-          </a>
-        </li>
+        {links.map(({ title, href }, index) => (
+          <li className="nav__item" key={index}>
+            <a href={href} className="nav__link">
+              <i>{title}</i>
+            </a>
+          </li>
+        ))}
       </ul>
     </motion.nav>
   );

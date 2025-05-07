@@ -1,0 +1,30 @@
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 20px 0;
+}
+
+.marquee {
+  display: inline-block;
+  animation: scroll 10s linear infinite;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

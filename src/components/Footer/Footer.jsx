@@ -1,9 +1,10 @@
 import "./Footer.css";
 import {motion} from "framer-motion";
+import { useTranslation } from "react-i18next";
+
 
 export const Footer = () => {
-
-
+  const { t } = useTranslation();
 
  const footerVariants = {
    hidden: { opacity: 0, },
@@ -15,7 +16,6 @@ export const Footer = () => {
 
  const itemAnimation = {
    hidden: { opacity: 0, x: 100 },
-
    visible: custom => ({
      opacity: 1, x: 0,
      transition: { duration: custom * 0.5 }
@@ -35,7 +35,7 @@ export const Footer = () => {
         viewport={{ once: true, amount: 0.3 }}
       >
         <motion.h1 className="footer__title" variants={textAnimation}>
-          Let's create something unique together!
+          {t("footer.title")}
         </motion.h1>
 
         <div className="contact-info">
@@ -46,7 +46,7 @@ export const Footer = () => {
           >
             <div className="icon-title">
               <img src="/public/icon/icons8-email.gif" alt="email" />
-              <h3>EMAIL</h3>
+              <h3>E-mail</h3>
             </div>
             <p>edikmaslovskiy@gmail.com</p>
           </motion.div>
@@ -65,7 +65,8 @@ export const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              My GitHub
+              {t("footer.git")}
+              
             </a>
           </motion.div>
 
@@ -76,7 +77,7 @@ export const Footer = () => {
           >
             <div className="icon-title">
               <img src="/public/icon/icons8-phone.gif" alt="phone" />
-              <h3>PHONE</h3>
+              <h3>{t("footer.phone")}</h3>
             </div>
             <p>1234567890</p>
           </motion.div>

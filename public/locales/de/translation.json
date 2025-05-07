@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "hello": "Hallo,",
+    "i": " ich bin",
+    "name": "Eduard!",
+    "subtitle1": "Ich bin ein angehender Frontend-Entwickler, der sich ",
+    "subtitle2": "weiterentwickeln und Neues lernen möchte",
+    "nav_title": "Über mich"
+  },
+  "about": {
+    "title": "Über mich",
+    "description_one": "Hallo, mein Name ist Eduard, ich bin 24 Jahre alt und ein angehender Frontend-Entwickler aus der Ukraine. Zurzeit lebe ich in Deutschland. Meine Leidenschaft für Technologie begann mit dem Lernen von HTML und CSS, und seitdem kann ich nicht mehr aufhören. Derzeit arbeite ich mit React und JavaScript, um schöne und funktionale Webanwendungen zu erstellen. ",
+    "description_two": "Ich interessiere mich für Design und UI/UX und strebe danach, das Benutzererlebnis zu verbessern. In meiner Freizeit lerne ich gerne neue Technologien und entwickle Projekte. Mein Ziel ist es, nicht nur funktionierende, sondern auch schöne und benutzerfreundliche Webanwendungen zu schaffen, die Menschen helfen. Ich bin offen für neue Herausforderungen und lerne ständig dazu.",
+    "nav_title": "Projekte"
+  },
+  "projects": {
+    "title": "Projekte",
+    "project_one": {
+      "name": "Innenarchitektur",
+      "description": "Dieses Projekt ist eine Portfolio-Website für einen Innenarchitekten, die abgeschlossene Arbeiten präsentiert und Design-Dienstleistungen anbietet. Es verfügt über ein adaptives Layout und unterstützt vier Sprachen: Russisch, Ukrainisch, Englisch und Deutsch.",
+      "techDescription": "Das Projekt wurde mit React erstellt und bietet eine benutzerfreundliche Navigation zwischen den Seiten mit React Router. Im Projekt wurde Mehrsprachigkeit implementiert, und es wurden JSON-Dateistrukturen zur Speicherung von Informationen über die Projekte des Designers erstellt. Auf den Seiten gibt es Formulare für Feedback oder die Buchung von Designer-Dienstleistungen. Zudem wurde ein adaptives Layout umgesetzt, das für verschiedene Geräte und Bildschirmauflösungen geeignet ist."
+    },
+    "title_technologies": "Technologien",
+    "project_two": {
+      "name": "Mood-Tracker",
+      "description": "Mood Tracker ist eine Webanwendung, die Ihnen helfen soll, Ihre Stimmung im Laufe der Zeit zu überwachen und zu verstehen. Indem Sie täglich Ihre Emotionen erfassen, Kommentare hinzufügen und Trends in einem interaktiven Diagramm betrachten, können Sie Einblicke in Ihr emotionales Wohlbefinden gewinnen. Ob Sie Muster erkennen, emotionale Ziele setzen oder einfach über Ihre Gefühle nachdenken möchten, Mood Tracker bietet eine intuitive und benutzerfreundliche Möglichkeit, mit Ihrer mentalen Gesundheit in Kontakt zu bleiben.",
+      "techDescription": "Die Grundlage des Projekts bildet React + Vite. Die Navigation in der Anwendung wurde dank React Router intuitiv verständlich, und Redux Toolkit übernahm das Zustandsmanagement, einschließlich der Authentifizierung über Slice. Für die Datenspeicherung und Authentifizierung haben wir Firebase gewählt, das eine zuverlässige Echtzeit-Datenspeicherung und schnelles Hosting bietet. Dank SCSS sieht die Anwendung nicht nur stilvoll aus, sondern passt sich auch perfekt an alle Geräte an, sei es ein Smartphone, Tablet oder Computer."
+    },
+    "view_gitHub": "Sehen Sie sich das Projekt auf GitHub an",
+    "view_demo": "Demoseite anzeigen"
+  },
+  "footer": {
+    "title": "Lass uns gemeinsam etwas Einzigartiges erschaffen!",
+    "phone": "Telefonnummer",
+    "git": "Mein GitHub"
+  }
+}
